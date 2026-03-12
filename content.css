@@ -1,0 +1,23 @@
+.ntlv-outline-blank {
+  outline: 3px dashed rgba(255, 80, 80, 0.95) !important;
+  outline-offset: 2px !important;
+}
+
+.ntlv-outline-maybe {
+  outline: 3px dashed rgba(255, 170, 0, 0.95) !important;
+  outline-offset: 2px !important;
+}
+
+.ntlv-floating-badge {
+  position: fixed;
+  z-index: 2147483647;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #111;
+  background: #fff4cc;
+  border: 1px solid #d7a700;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+  pointer-events: none;
+}
